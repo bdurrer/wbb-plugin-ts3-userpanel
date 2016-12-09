@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd" name="ch.nana.usermenu.ts3">
+	<packageinformation>
+		<packagename>TeamSpeak3 UserPanel Menu</packagename>
+		<packagename language="de"><![CDATA[TeamSpeak3 UserPanel Menü]]></packagename>
+		<packagedescription>Adds a info DropDown to the UserPanel which shows the current TeamSpeak users.</packagedescription>
+		<packagedescription language="de"><![CDATA[Fügt im Usermenü Menü ein, welches die momentan verbundenen Benutzer auf dem TeamSpeak anzeigt]]></packagedescription>
+		<version>1.0.9</version>
+		<date>2015-10-18</date>
+		<license><![CDATA[Creative Commons <by> <https://creativecommons.org/licenses/by/3.0/>]]></license>
+	</packageinformation>
+
+	<authorinformation>
+		<author>Beat Durrer</author>
+		<authorurl>http://dasnetz.me/</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="2.1.7">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.0.7">com.grex.wcf.ts3viewer</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="2.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+
+	<instructions type="install">
+		<!-- files -->
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="file">files.tar</instruction>
+		<!-- config -->
+		<instruction type="templateListener">templateListener.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<!-- files -->
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="file">files.tar</instruction>
+
+		<!-- config -->
+		<instruction type="templateListener">templateListener.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+</package>

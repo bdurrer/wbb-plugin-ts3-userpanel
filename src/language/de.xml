@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
+    <category name="wcf.ts3usermenu">
+        <item name="wcf.ts3usermenu.teamSpeakMenuName"><![CDATA[TeamSpeak]]></item>
+        <item name="wcf.ts3usermenu.usersOnline"><![CDATA[Benutzer online:]]></item>
+		<item name="wcf.ts3usermenu.users"><![CDATA[Benutzer]]></item>
+		<item name="wcf.ts3usermenu.gotoTeamSpeakPage"><![CDATA[zur TeamSpeak Seite]]></item>
+		
+    </category>
+</language>

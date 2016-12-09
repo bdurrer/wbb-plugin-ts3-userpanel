@@ -1,0 +1,31 @@
+{
+  "name": "wbb-plugin-ts3-userpanel",
+  "version": "1.0.0",
+  "description": "WoltLab forum plugin. Adds an info-dropdown menu to the UserPanel which shows the current TeamSpeak users.",
+  "scripts": {
+    "dist": "gulp dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdurrer/wbb-plugin-ts3-userpanel.git"
+  },
+  "keywords": [
+    "woltlab",
+    "forum",
+    "wbb",
+    "plugin",
+    "ts3",
+    "teamspeak"
+  ],
+  "author": "Beat Durrer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bdurrer/wbb-plugin-ts3-userpanel/issues"
+  },
+  "homepage": "https://github.com/bdurrer/wbb-plugin-ts3-userpanel#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-tar": "^1.9.0"
+  }
+}

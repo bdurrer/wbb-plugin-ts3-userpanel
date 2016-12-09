@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/templatelistener.xsd">
+	<import>
+		<templatelistener name="userMenuACPLink">
+			<environment>user</environment>
+			<eventname>menuItems</eventname>
+			<templatename>userPanel</templatename>
+			<templatecode><![CDATA[{include file='__userMenuTS3Menu' application='wcf'}]]></templatecode>
+		</templatelistener>
+				<templatelistener name="javascriptInclude">
+			<environment>user</environment>
+			<templatename>headInclude</templatename>
+			<eventname>javascriptInclude</eventname>
+			<templatecode><![CDATA[<script data-relocate="true" src="{@$__wcf->getPath()}js/WCF.User.Panel.TS3Menu.js?v={@LAST_UPDATE_TIME}"></script>]]></templatecode>
+		</templatelistener>
+	</import>
+</data>
